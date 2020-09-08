@@ -1,0 +1,23 @@
+$bg: salmon;
+$width: 200px;
+$height: 200px;
+
+body {
+  background-color: $bg;
+}
+
+img {
+  width: $width;
+  height: $height;
+}
+
+h1 {
+  transform: rotate(-5deg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: auto;
+}

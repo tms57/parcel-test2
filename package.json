@@ -1,0 +1,19 @@
+{
+  "name": "parceltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "prod": "parcel build scr/index.html"
+  },
+  "keywords": [],
+  "author": "Ted",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^1.5.0",
+    "sass": "^1.26.2"
+  }
+}
